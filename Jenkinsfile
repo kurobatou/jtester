@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent { label 'Rider' }
     stages {
         stage('hello') {
             steps {
-                sh 'echo Hello Jenkins!'
+                sh 'echo Hello Jenkins!.... from github'
             }
         }
     }
