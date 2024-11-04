@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Rider' }
+    agent { label 'linux-agent-k3s' }
     stages {
         stage('hello') {
             steps {
